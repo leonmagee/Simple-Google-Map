@@ -1,7 +1,7 @@
 <?php
 /**
  * Class simple_google_map
- * Google Maps API script in enqueued in functions.php - url includes reference
+ * Google Maps API script in embedded in this file - url includes reference
  * to callback function 'initMap' - https://maps.googleapis.com/maps/api/js?callback=initMap
  */
 class simple_google_map {
