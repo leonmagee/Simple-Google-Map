@@ -3,7 +3,7 @@
 /**
  * Class simple_google_map
  * Google Maps API script in enqueued through 'output_map' method - url includes reference
- * to function 'initMap' - https://maps.googleapis.com/maps/api/js?callback=initMap
+ * to callback function 'initMap' - https://maps.googleapis.com/maps/api/js?callback=initMap
  */
 class simple_google_map {
 
