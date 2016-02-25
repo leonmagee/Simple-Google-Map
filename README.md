@@ -1,9 +1,17 @@
 # Simple-Google-Map
-Output a very simple google map with a marker at coordinates.
+Output a google map with a marker at coordinates.
 
 Usage:
 
-$map = new simple_google_map('234324', '-132424', 'Map Title');
-$map->output_map();
+```php
+if ( ( $lat && $long ) || $combined_address ) {
 
-The output will include the Googe Map API script. 
+    $google_map = new hji_google_map( $lat, $long, get_the_title(), $combined_address );
+
+    $google_map->output_map();
+}
+```
+
+If the latitude and longitude have been set, the marker and map centering will use that. If not, it will use Google's geocode feature to extract the location from the address string.
+
+The output will include the Googe Map API script.
