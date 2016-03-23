@@ -20,7 +20,7 @@ if ( ( $lat && $long ) || $combined_address ) {
 }
 ```
 
-
+------------------------------------
 
 ```php
 class simple_google_map_group {}
