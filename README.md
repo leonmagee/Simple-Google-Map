@@ -1,7 +1,7 @@
 # Simple-Google-Map
 
 ```php
-class simple-google-map {}
+class simple_google_map {}
 ```
 Output a google map with a marker at coordinates.
 
@@ -21,7 +21,7 @@ If the latitude and longitude have been set, the marker and map centering will u
 The output will include the Googe Map API script.
 
 ```php
-class simple-google-map-group {}
+class simple_google_map_group {}
 ```
 
 Usage:
