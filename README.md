@@ -1,5 +1,6 @@
 # Simple-Google-Map
 
+### Map for one location
 ```php
 class simple_google_map {}
 ```
@@ -22,6 +23,7 @@ if ( ( $lat && $long ) || $combined_address ) {
 
 ------------------------------------
 
+### Map for multiple locations
 ```php
 class simple_google_map_group {}
 ```
