@@ -18,6 +18,8 @@ The output will include the Googe Map API script.
 
 # Simple-Google-Map-Group
 
+Usage:
+
 This method allows you to pass an array of property data and then create multiple marker on a single map. It will auto-center based on the different lat and longs that are entered. It will get the latitude and longitude using Geocode from the address if the defaults are not set. The marker will link to the entered url.
 
 ```php
@@ -29,4 +31,8 @@ This method allows you to pass an array of property data and then create multipl
       'url' => 'http://www.marker-links-to-this-url.com'
       )
       );
+
+$google_map = new simple_google_map_group( $array );
+
+$google_map->output_map();
 ```
