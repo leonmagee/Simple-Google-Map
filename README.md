@@ -5,6 +5,10 @@ class simple_google_map {}
 ```
 Output a google map with a marker at coordinates.
 
+If the latitude and longitude have been set, the marker and map centering will use that. If not, it will use Google's geocode feature to extract the location from the address string.
+
+The output will include the Googe Map API script.
+
 Usage:
 
 ```php
@@ -16,17 +20,15 @@ if ( ( $lat && $long ) || $combined_address ) {
 }
 ```
 
-If the latitude and longitude have been set, the marker and map centering will use that. If not, it will use Google's geocode feature to extract the location from the address string.
 
-The output will include the Googe Map API script.
 
 ```php
 class simple_google_map_group {}
 ```
 
-Usage:
-
 This class allows you to pass an array of property data and then create multiple marker on a single map. It will auto-center based on the different lat and longs that are entered. It will get the latitude and longitude using Geocode from the address if the defaults are not set. The marker will link to the entered url.
+
+Usage:
 
 ```php
 
