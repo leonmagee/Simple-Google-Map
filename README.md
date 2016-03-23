@@ -1,4 +1,8 @@
 # Simple-Google-Map
+
+```php
+class simple-google-map {}
+```
 Output a google map with a marker at coordinates.
 
 Usage:
@@ -16,11 +20,13 @@ If the latitude and longitude have been set, the marker and map centering will u
 
 The output will include the Googe Map API script.
 
-# Simple-Google-Map-Group
+```php
+class simple-google-map-group {}
+```
 
 Usage:
 
-This method allows you to pass an array of property data and then create multiple marker on a single map. It will auto-center based on the different lat and longs that are entered. It will get the latitude and longitude using Geocode from the address if the defaults are not set. The marker will link to the entered url.
+This class allows you to pass an array of property data and then create multiple marker on a single map. It will auto-center based on the different lat and longs that are entered. It will get the latitude and longitude using Geocode from the address if the defaults are not set. The marker will link to the entered url.
 
 ```php
 
@@ -30,7 +36,7 @@ This method allows you to pass an array of property data and then create multipl
       'address' => '4210 Fairmount St. Dallas TX 75219',
       'url' => 'http://www.marker-links-to-this-url.com'
       )
-      );
+ );
 
 $google_map = new simple_google_map_group( $array );
 
