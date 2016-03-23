@@ -143,7 +143,7 @@ class simple_google_map_group {
 	<?php }
 
 	/**
-	 *  Output Google Map - called from snippets loop?
+	 *  Output Google Map
 	 */
 	public function output_map() {
 
