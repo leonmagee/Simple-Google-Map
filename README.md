@@ -29,6 +29,7 @@ class simple_google_map_group {}
 ```
 
 This class allows you to pass an array of property data and then create multiple marker on a single map. It will auto-center based on the different lat and longs that are entered. It will get the latitude and longitude using Geocode from the address if the defaults are not set. The marker will link to the entered url.
+The JavaScript is written here so the map can be generated from the callback within the `geocode` method.
 
 Usage:
 
