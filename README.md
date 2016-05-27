@@ -49,4 +49,4 @@ $google_map->output_map();
 ```
 
 ### Warning
-You must give the #map div a height attribute or the map will not be visible!
+You must give the `#map` div a height attribute or the map will not be visible!
